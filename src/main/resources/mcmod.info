@@ -6,7 +6,7 @@
 		"description": "*bonks galacticraft with a comically oversized mallet*",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "",
+		"url": "https://github.com/kumquat-ir/iwtsms",
 		"updateUrl": "",
 		"authorList": ["hexpaws"],
 		"credits": "",

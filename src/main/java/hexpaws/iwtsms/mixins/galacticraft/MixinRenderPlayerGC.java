@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 @Mixin(value = RenderPlayerGC.class, remap = false)
-public class MixinRenderPlayerGC {
+public abstract class MixinRenderPlayerGC {
     @ModifyVariable(method = "renderModelS", at = @At("STORE"))
     private static PlayerGearData iwtsms$injectRenderModelS(PlayerGearData gearData) {
         return null;
